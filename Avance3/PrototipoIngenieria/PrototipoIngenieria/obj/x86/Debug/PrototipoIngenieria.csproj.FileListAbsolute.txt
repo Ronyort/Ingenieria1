@@ -1,0 +1,58 @@
+c:\users\rony\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\bin\Debug\PrototipoIngenieria.exe
+c:\users\rony\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\bin\Debug\PrototipoIngenieria.pdb
+c:\users\rony\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.FrmPrincipal.resources
+c:\users\rony\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.Properties.Resources.resources
+c:\users\rony\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.csproj.GenerateResource.Cache
+c:\users\rony\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.exe
+c:\users\rony\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.pdb
+c:\users\rony\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.Logging.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.csprojResolveAssemblyReference.cache
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.FormLogística.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.boleta.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.EEmpresa.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.EliminarContenedor.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.EliminarCámara.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.EProductor.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.FactEmp.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.factPro.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.GuíaDespacho.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.MEmpresa.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.MProductor.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.RCorte.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.Registrar_en_camara.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.RegistrarCliente.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.registrarContenedor.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.REmpresa.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.REstimaciones.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.RegsFrutaEntrante.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.RFrutaPlant.resources
+C:\Users\RONY\documents\visual studio 2010\Projects\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.RProductor.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.exe
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.pdb
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\bin\Debug\PrototipoIngenieria.exe
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\bin\Debug\PrototipoIngenieria.pdb
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.csprojResolveAssemblyReference.cache
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.boleta.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.EEmpresa.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.EliminarContenedor.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.EliminarCámara.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.EProductor.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.FactEmp.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.factPro.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.FormLogística.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.FrmPrincipal.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.GuíaDespacho.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.Logging.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.MEmpresa.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.MProductor.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.Properties.Resources.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.RCorte.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.Registrar_en_camara.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.RegistrarCliente.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.registrarContenedor.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.REmpresa.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.REstimaciones.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.RegsFrutaEntrante.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.RFrutaPlant.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.RProductor.resources
+C:\Users\RONY\Documents\Avances Maykol P- Rony O\Avance3\PrototipoIngenieria\PrototipoIngenieria\obj\x86\Debug\PrototipoIngenieria.csproj.GenerateResource.Cache
