@@ -1,0 +1,231 @@
+  Especificación de                requerimientos de software
+
+Para
+
+Control  Pos-cosecha
+
+Versión 1.0 Beta
+
+Preparado por Maikol P.A – Rony O
+
+M&R
+
+09/06/2014
+
+
+
+
+
+
+Índice
+1. Introducción	3
+1.1 Propósito	3
+1.2 Alcances del proyecto y características del producto	3
+1.3 Definiciones,Siglas y abreviaturas	3
+1.4 Referencias	3
+2 descripción General	4
+2.1 Perspectivas del producto	4
+2.2 Tipos de usuarios y características	4
+2.3 Ambiente operativo	4
+2.4 Restricciones de Diseño e implementación	5
+2.5 Documentación de usuario	5
+2.6 suposiciones y dependencias	5
+3. Características del sistema	5
+3.1 Descripción y prioridades	5
+3.2 Requerimientos Funcionales	6
+4 Requerimientos de interfaz externa	12
+4.1 Interfaces de usuarios	12
+4.2 Interfaz de hardware	12
+4.3 Interfaces de software	12
+4.4 Interfaces de comunicación	15
+5. Otros requerimientos no funcionales	15
+5.1 requerimientos de ejecución	15
+5.2 Requerimientos de seguridad	15
+5.3 Requerimientos de seguridad y acceso	15
+5.4 Atributos de la calidad del software	16
+
+
+
+
+
+
+
+
+Revisión Histórica
+
+
+Nombre
+Fecha
+Razón de los cambios
+Versión
+
+
+
+
+
+
+
+
+
+1. Introducción
+1.1 Propósito
+El siguiente documento de especificación de requerimientos de software presenta los diferentes requisitos funcionales y no funcionales relacionados con la Versión 1.0 Beta de control pos-cosecha, este documento tiene como objetivo proporcionar la información  necesaria para la correcta implementación del software a desarrollar.
+
+1.2 Alcances del proyecto y características del producto
+Se espera crear el sistema completamente en un plazo no mayor a año y medio además que el mismo funcione correctamente, y así lograr satisfacer la necesidad, complacer al empresario y posicionar el software creado como motor en términos de pos-cosecha en el sector productivo exportador empresarial  básicamente en el control de plantas empacadoras de piña, todas las características del producto se encuentran con mas detalle en el documento de visión y alcance.
+1.3 Definiciones,Siglas y abreviaturas
+RN=regla de negocio
+CU= Caso de uso
+SD= suposiciones y dependencias
+RE= requerimiento de ejecución
+RSA= requerimiento de seguridad y acceso
+UI= interfaz de usuario.
+
+
+1.4 Referencias
+Wiegers, Karl. Cafeteria Ordering System Vision and Scope Document, www.processimpact.com/projects/COS/COS_vision_and_scope.doc .
+
+Wiegers, Karl. Cafeteria Ordering System Business Rules Document
+Maikol P  Rony O.Sistema control pos-cosecha documento Reglas de negocio.
+Maikol P  Rony O.Sistema control pos-cosecha documento Visión y alcance.
+Maikol P  Rony O.Sistema control pos-cosecha documento Casos de uso.
+
+2 descripción General
+2.1 Perspectivas del producto
+El sistema de control pos-cosecha viene a proponer una mejor forma de gestionar las deferentes operaciones que se llevan a cabo en una planta empacadora, sustituyendo las actuales herramientas que se utilizan tanto para almacenar la información como el ambiente gráfico, con las diferentes versiones se espera crear un sistema completo que integre todas los módulos que están presentes en una planta.
+
+2.2 Tipos de usuarios y características
+Encargado de facturación: Este encargado es una única persona que tiene a cargo diferentes funciones que incluye registro de productores, generación de facturas, llevar a cabo el registro de fruta en planta, registro de cortes, registros de fruta entrante y llevar el control de las estimaciones de los productores.
+Encargado de logística: Este encargado es una única persona que realiza funciones específicas relacionadas con el registro de contenedores, registros de la fruta que se encuentra en planta, registros de clientes y registros de paletas.
+Encargado de Calidad: Única persona encargada de lleva a cabo los diferentes registros de las cualidades de la fruta que se empaca y genera una boleta de calidad.
+
+2.3 Ambiente operativo
+El sistema de control pos-cosecha correrá en ambiente windows en versiones de windows 7 y posteriores en sus diferentes arquitecturas(32 bits, 64 bits).
+El framework que se necesita para la correcta funcionalidad del programa se debe contar con jdk versión 6 o posteriores
+El entorno de desarrollo a emplear para desarrollar la aplicación será netbeans o eclipse ya que ofrece una serie de facilidades.
+
+2.4 Restricciones de Diseño e implementación
+El motor de bases de datos a utilizar es Mysql.
+El lenguaje a utilizar es java cumpliendo con la estandarización 7.0
+
+2.5 Documentación de usuario
+El documento de ayuda se puede visualizar desde la aplicación yendo a la esquina superior derecha de todas las ventanas, este documento se encuentra en formato html.
+2.6 suposiciones y dependencias
+SD-1: El encargado de realizar las diferentes operaciones correspondiente a su módulo está debidamente capacitado para el adecuado uso del sistema.
+SD-2: Los requisitos del ordenador son los necesarios para que el sistema se ejecute bien.
+SD-1: El correcto funcionamiento del sistema depende del correcto funcionamiento del ordenador.
+SD-2: El resultado de las diferentes consultas que se realizan en el sistema depende del correcto registro de los datos almacenados en la base de datos.
+3. Características del sistema
+3.1 Descripción y prioridades
+Proceso de verificación del encargado por medio de su usuario y contraseña. prioridad=alta.
+El ingreso correcto de los datos a la hora de realizar procesos de inserción de datos a guardar en base de datos. prioridad=alta.
+
+3.2 Requerimientos Funcionales
+
+
+Registrar productor
+El encargado de facturación es el responsable de llevar el control de registros del productor, para esto necesita ingresar al sistema, dirigirse a la ventana de registrar productor, llenar lo indicado y presionar el botón de aceptar. Se describe con mas detalle en el documento casos de uso CU-01.
+ Eliminar Productor
+El encargado de facturación es el responsable de llevar el control de registros del productor, para eliminar un productor el encargado debe ingresar al sistema dirigirse a la ventana de eliminar productor llenar  la información solicitada y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-02.
+Modificar Productor
+El encargado de facturación es el responsable de llevar el control de registros del productor para modificar un productor el encargado debe de ingresar al sistema dirigirse a la ventana de modificar productor llenar la información solicitada y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-03.
+Registrar Contenedor
+El encargado de logística es el responsable de llevar el control de registros  de contenedores para registrar un contenedor el encargado debe ingresar al sistema , dirigirse a la ventana de registrar contenedor y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-04.
+Eliminar Contenedor
+El encargado de logística es el responsable de llevar el control de registros  de los contenedores para eliminar un contenedor el encargado debe de ingresar al sistema dirigirse a la venta de eliminar contenedor llenar los datos y presiona aceptar. Se describe con mas detalle en el documento casos de uso CU-05.
+Modificar Contenedor
+El encargado de logística es el responsable de llevar el control de registros  de los contenedores para modificar un contenedor el encargado debe de ingresar al sistema dirigirse a la ventana  de modificar contenedor , llenar con la información deseada los campos y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-06.
+Boleta Calidad
+El encargado de calidad es el responsable de generar las respectivas boletas de calidad para lo cual ingresa al sistema luego se dirige a la ventana boleta de calidad y presiona aceptar. Se describe con mas detalle en el documento casos de uso CU-07.
+Facturación para Productor
+El encargado de facturación es el responsable de generar las respectivas facturas a los productores para esto ingresa al sistema se dirige a la opción de facturación llena los datos solicitados y presiona aceptar. Se describe con mas detalle en el documento casos de uso CU-08.
+Registro a Cámara
+El encargado de logística es el responsables de controlar los registros de la cámara de enfriamiento para realizar un registro a cámara el encargado ingresa al sistema se dirige a la opción de registro a cámara llena los campos con la información necesaria y presiona aceptar. Se describe con mas detalle en el documento casos de uso CU-09.
+ Eliminar de Cámara
+El encargado de logística es el responsables de controlar los registros de la cámara de enfriamiento para eliminar registros de cámara el encargado debe ingresar al sistema dirigirse a la venta de eliminar de cámara y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-10.
+Modificar de Cámara
+El encargado de logística es el responsables de controlar los registros de la cámara de enfriamiento para modificar la información de cámara el encargado debe de ingresar al sistema , dirigirse a la venta de modificar de cámara y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-11.
+Guía Despacho
+El encargado de logística es el responsable de realizar las guías respectivas a cada contenedor para realizar una guía de despacho debe de ingresar al sistema, dirigirse a la ventana de guía despacho ingresar los datos solicitados y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-12.
+ Facturación para Empresa
+El encargado de facturación es el responsable de generar las respectivas facturas a las empresas para realizar una factura empresarial el encargado debe de ingresar al sistema, dirigirse a la venta de facturación y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-13.
+Registrar Cliente
+El encargado de logística es el responsable de llevar el control de registros del cliente para ingresar clientes al sistema el encargado debe de ingresar al mismo , dirigirse a la venta de registrar cliente y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-14.
+Eliminar Cliente
+El encargado de logística es el responsable de llevar el control de registros del cliente para eliminar un cliente el encargado debe de ingresar al sistema , dirigirse a la venta de eliminar cliente y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-15.
+Modificar Cliente
+El encargado de logística es el responsable de llevar el control de registros- cliente para modificar un cliente el encargado debe de ingresar al sistema, dirigirse a la venta d modificar cliente y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-16.
+Registrar fruta en planta
+El encargado de facturación es el responsable de llevar a cabo el control de registros de la cantidad de fruta que ingresa a la planta para lo cual debe de ingresar al sistema , dirigirse a registro de fruta en planta llenar lo solicitado y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-17.
+Modificar cantidad de fruta presente en planta.
+El sistema es el encargado de actualizar la cantidad de fruta presente en la planta, cada vez que se registra un nuevo ingreso de producto. Se describe con mas detalle en el documento casos de uso CU-18.
+Eliminar cantidad de fruta presente en  planta
+El encargado es el responsable de eliminar registros obsoletos correspondientes a la cantidad de fruta presente en la planta para llevar esto el encargado debe ingresar al sistema, dirigirse a la venta de eliminar cantidad de fruta en planta llenar lo solicitado y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-19.
+Registrar cantidad fruta entrante.
+El encargado de facturación es el responsable de ingresar registros correspondientes a la cantidad de fruta que se va a tener en una fecha en la planta para esto debe ingresar al sistema, dirigirse a la ventana de registrar fruta en planta llenar los campos indicados y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-20.
+Modificar cantidad fruta entrante.
+El encargado es el responsable de modificar registros correspondientes a la cantidad de fruta que se va a tener en una fecha en la planta para modificar dicho dato el encargado debe de ingresar al sistema, dirigirse a la ventana de modificar fruta entrante ingresar los datos correspondientes y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-21.
+Eliminar cantidad fruta entrante.
+El encargado es el responsable de eliminar registros correspondientes a la cantidad de fruta que se va a tener en una fecha en la planta  para eliminar dicho registro el encargado a de ingresar al sistema, dirigirse a eliminar fruta entrante y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-22.
+Registrar corte.
+El encargado de facturación es el responsable de ingresar nuevos registros correspondientes a la fruta empacada para lo cual debe de ingresar al sistema , dirigirse a la ventana de registrar corte llenar con la información solicitada y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-23.
+Modificar corte.
+El encargado de facturación es el responsable de modificar registros correspondientes a los cortes, esto en caso de errores al ingresar la información, para modificar dicho registro el encargado debe de ingresar al sistema, dirigirse a la ventana de modificar corte llenar los campos indicados y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-24.
+Eliminar corte.
+El encargado de facturación es el responsable de eliminar registros de cortes obsoletos para dicha operación se debe de ingresar al sistema, dirigir a la ventana de eliminar corte llenar lo indicado y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-25.
+Insertar estimaciones productor.
+El encargado de facturación es el responsable de llevar a cabo el control en cuanto a las posibles fechas en que un productor puede ofrecer producto para registrar estimaciones el encargado a de ingresar al sistema, dirigirse a la venta de Registrar estimaciones llenar los datos y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-26.
+Modificar estimaciones productor.
+El encargado de facturación es el responsable de modificar registros de estimación de productor para lo cual debe de ingresar al sistema, dirigirse a la venta de modificar estimaciones llenar la información correspondiente y presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-27.
+Eliminar estimaciones productor.
+El encargado de facturación es el responsable de eliminar registros de estimación de productor para esto debe de ingresar al sistema, dirigirse a la ventana de eliminar estimaciones ingresa los datos correspondientes y presiona aceptar. Se describe con mas detalle en el documento casos de uso CU-28.
+Registrar información de paleta.
+El encargado de logística es el responsable de llevar a cabo el registro de la información correspondiente a  las diferentes paletas, para ello se debe dirigir al apartado de registrar nueva paleta, luego rellenar los campos, presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-29.
+Modificar información de paleta.
+El encargado es el responsable de modificar la información del registro correspondiente a  las diferentes paletas, esta operación requiere que el encargado de logística se dirija a la opción de modificar información de paleta y realizar la búsqueda del registro para que se desplieguen los datos y realizar las modificaciones necesarias. Se describe con mas detalle en el documento casos de uso CU-30.
+Eliminar registro de paleta.
+El encargado de logística es el responsable de eliminar registros correspondientes a paletas, para esto debe dirigirse a la opción  de eliminar registros de paletas, luego rellenar los campos con las fechas inicial y final para eliminar dichos registros, posteriormente presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-31.
+Modificar Contraseña Usuario
+M&R  genera las contraseñas a los distintos encargados para su primer uso, las mismas solo el encargado general podrá modificar, serán entregadas en forma impresa al gerente de la empresa. Se describe con mas detalle en el documento casos de uso CU-32.
+Registrar Empresa.
+El encargado de facturación es el responsable de llevar el control de registros de empresas productoras para esto el responsable debe dirigirse al apartado de agregar nueva empresa y rellenar los diferentes campos y luego presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-33.
+Eliminar Empresa.
+El encargado de facturación es el responsable de llevar el control de registros de empresas productoras, para realizar dicha operación el responsable se dirige a la opción de eliminar empresa e ingresar el código de la empresa a eliminar y posteriormente presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-34.
+Modificar Empresa.
+El encargado de facturación es el responsable de llevar el control de registros de empresas productoras, para realizar esta operación el encargado debe dirigirse al apartado de modificar información de  empresa productora, luego de realizar lo anterior presionar aceptar. Se describe con mas detalle en el documento casos de uso CU-35.
+
+
+4 Requerimientos de interfaz externa
+4.1 Interfaces de usuarios
+UI-1: El sistema de control pos-cosecha ofrece una interfaz agradable para el usuario.
+UI-2: El sistema de control pos-cosecha cuenta con las validaciones correspondientes a los campos a rellenar, permitiendo al usuario corregir errores a la hora de digital los datos.
+UI-3: Para utilizar las funcionalidades del sistema se presenta una ventana de verificación de usuario, esta es la primera ventana en aparecer al ejecutar la aplicación.
+UI-4: La aplicación permite la navegación a través de mouse y teclado. 
+4.2 Interfaz de hardware
+Para la correcta ejecución de la aplicación se requiere de un computador que cuente con mínimo 2gb de memoria RAM, un procesador con una velocidad de reloj de 2.3 ghz, disco duro de 500 gb, un monitor con una resolución de 1366x768 pixeles.
+
+4.3 Interfaces de software
+
+
+
+4.4 Interfaces de comunicación
+Para cada operación que se realiza se despliega un mensaje de notificación de éxito o de fracaso de operación, en caso de que se ingrese un dato erróneo en alguno de los campos se mostrará un mensaje indicando de que los datos se deben corregir.
+5. Otros requerimientos no funcionales
+5.1 requerimientos de ejecución
+RE-1: El sistema mostrará mensajes de alerta en caso de que la operación que se está realizando en ese momento presente un error.
+5.2 Requerimientos de seguridad
+RS-1: El principal requisito de seguridad es el de tener un usuario y clave para que se puedan acceder a las funcionalidades del sistema.
+5.3 Requerimientos de seguridad y acceso
+RSA-1: El sistema debe ser capaz de aceptar usuarios y contraseñas pertenecientes a la empresa, es decir no aceptar usuarios y contraseñas incorrectas.
+RSA-2: Al momento de que un empleado deje las instalaciones de la empresa se debe cambiar el usuario y la contraseña de ese módulo, para evitar inconvenientes futuros.
+5.4 Atributos de la calidad del software
+Disponibilidad: El sistema va a estar disponible para ser utilizado a cualquier hora del día.
+Interoperabilidad: El sistema será capaz de aportar al encargado imprimir los comprobantes respectivos a las consultas que realice en formato pdf u otro.
+Confiabilidad: Se garantiza que un máximo de 5 operaciones pueden fallar.
+Escalabilidad: En cuanto a este apartado al implementar programación orientada a objetos se hace fácil de alguna manera incluir nuevas funcionalidades.
+Usabilidad: En cuanto a este punto el sistema incorpora un apartado de ayuda en la esquina superior derecha.
+Mantenibilidad: Ya que se utiliza programación orientada a objetos por esta razón se hace más fácil darle mantenimiento al código ante un eventual error. 
+Portabilidad: En cuanto a este apartado la aplicación se ejecuta únicamente en ambiente windows.
+
+5.5 Requerimientos Especiales
+No se identificaron requerimientos de este tipo.
